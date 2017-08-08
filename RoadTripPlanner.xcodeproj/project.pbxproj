@@ -1,0 +1,446 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		49CFB742CC38BE13AFD18DF9 /* libPods-RoadTripPlanner.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 24F36695CDE47C1F9C242D7B /* libPods-RoadTripPlanner.a */; };
+		5FD88E621EE1DB2400AA32D7 /* travelbuddyimage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5FD88E611EE1DB2400AA32D7 /* travelbuddyimage.jpg */; };
+		5FFC67451EE0DF1F00F49930 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FFC67441EE0DF1F00F49930 /* DetailViewController.swift */; };
+		FBBAA4361ECE4B600063303D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBBAA4351ECE4B600063303D /* AppDelegate.swift */; };
+		FBBAA4381ECE4B600063303D /* TripOverviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBBAA4371ECE4B600063303D /* TripOverviewViewController.swift */; };
+		FBBAA43B1ECE4B600063303D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBBAA4391ECE4B600063303D /* Main.storyboard */; };
+		FBBAA4401ECE4B600063303D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBBAA43F1ECE4B600063303D /* Assets.xcassets */; };
+		FBBAA4431ECE4B600063303D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBBAA4411ECE4B600063303D /* LaunchScreen.storyboard */; };
+		FBBAA44B1ECE6B5F0063303D /* LocationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBBAA44A1ECE6B5F0063303D /* LocationCell.swift */; };
+		FBDC73D31ECE8CEA005865DB /* LocationInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBDC73D21ECE8CEA005865DB /* LocationInfoViewController.swift */; };
+		FBEDD2091ECEBC15002CF9C8 /* RoadTripPlanner.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FBBAA43C1ECE4B600063303D /* RoadTripPlanner.xcdatamodeld */; };
+		FBEDD20B1ECED972002CF9C8 /* LocationInfoViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBEDD20A1ECED972002CF9C8 /* LocationInfoViewControllerDelegate.swift */; };
+		FBEDD20D1ECEF8DB002CF9C8 /* RouteMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBEDD20C1ECEF8DB002CF9C8 /* RouteMapViewController.swift */; };
+		FBEDD2151ECF00E9002CF9C8 /* LocationPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBEDD2141ECF00E9002CF9C8 /* LocationPoint.swift */; };
+		FBEDD2191ECF2053002CF9C8 /* InfoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBEDD2181ECF2053002CF9C8 /* InfoCell.swift */; };
+		FBEDD21B1ECF8B73002CF9C8 /* ShowMapViewControlller.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBEDD21A1ECF8B73002CF9C8 /* ShowMapViewControlller.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		24F36695CDE47C1F9C242D7B /* libPods-RoadTripPlanner.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RoadTripPlanner.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		26402702A0C8113773E8C4E5 /* Pods-RoadTripPlanner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RoadTripPlanner.release.xcconfig"; path = "Pods/Target Support Files/Pods-RoadTripPlanner/Pods-RoadTripPlanner.release.xcconfig"; sourceTree = "<group>"; };
+		57F03C2E086AA3B68C091688 /* Pods-RoadTripPlanner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RoadTripPlanner.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RoadTripPlanner/Pods-RoadTripPlanner.debug.xcconfig"; sourceTree = "<group>"; };
+		5FD88E611EE1DB2400AA32D7 /* travelbuddyimage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = travelbuddyimage.jpg; path = ../../../../../Downloads/travelbuddyimage.jpg; sourceTree = "<group>"; };
+		5FFC67441EE0DF1F00F49930 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		FBBAA4321ECE4B600063303D /* RoadTripPlanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RoadTripPlanner.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBBAA4351ECE4B600063303D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FBBAA4371ECE4B600063303D /* TripOverviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripOverviewViewController.swift; sourceTree = "<group>"; };
+		FBBAA43A1ECE4B600063303D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FBBAA43D1ECE4B600063303D /* RoadTripPlanner.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RoadTripPlanner.xcdatamodel; sourceTree = "<group>"; };
+		FBBAA43F1ECE4B600063303D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FBBAA4421ECE4B600063303D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FBBAA4441ECE4B600063303D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBBAA44A1ECE6B5F0063303D /* LocationCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationCell.swift; sourceTree = "<group>"; };
+		FBDC73D21ECE8CEA005865DB /* LocationInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationInfoViewController.swift; sourceTree = "<group>"; };
+		FBEDD20A1ECED972002CF9C8 /* LocationInfoViewControllerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationInfoViewControllerDelegate.swift; sourceTree = "<group>"; };
+		FBEDD20C1ECEF8DB002CF9C8 /* RouteMapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RouteMapViewController.swift; sourceTree = "<group>"; };
+		FBEDD2141ECF00E9002CF9C8 /* LocationPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationPoint.swift; sourceTree = "<group>"; };
+		FBEDD2181ECF2053002CF9C8 /* InfoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoCell.swift; sourceTree = "<group>"; };
+		FBEDD21A1ECF8B73002CF9C8 /* ShowMapViewControlller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowMapViewControlller.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FBBAA42F1ECE4B600063303D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49CFB742CC38BE13AFD18DF9 /* libPods-RoadTripPlanner.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		12456679C498086E05687A0E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				24F36695CDE47C1F9C242D7B /* libPods-RoadTripPlanner.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3AE5B27BF949FBB5AED63D78 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				57F03C2E086AA3B68C091688 /* Pods-RoadTripPlanner.debug.xcconfig */,
+				26402702A0C8113773E8C4E5 /* Pods-RoadTripPlanner.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FBBAA4291ECE4B600063303D = {
+			isa = PBXGroup;
+			children = (
+				FBBAA4341ECE4B600063303D /* RoadTripPlanner */,
+				FBBAA4331ECE4B600063303D /* Products */,
+				3AE5B27BF949FBB5AED63D78 /* Pods */,
+				12456679C498086E05687A0E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FBBAA4331ECE4B600063303D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FBBAA4321ECE4B600063303D /* RoadTripPlanner.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FBBAA4341ECE4B600063303D /* RoadTripPlanner */ = {
+			isa = PBXGroup;
+			children = (
+				5FD88E611EE1DB2400AA32D7 /* travelbuddyimage.jpg */,
+				FBBAA44E1ECE7F850063303D /* Delegates */,
+				FBBAA4351ECE4B600063303D /* AppDelegate.swift */,
+				FBBAA4371ECE4B600063303D /* TripOverviewViewController.swift */,
+				FBBAA4391ECE4B600063303D /* Main.storyboard */,
+				FBEDD21A1ECF8B73002CF9C8 /* ShowMapViewControlller.swift */,
+				FBEDD2181ECF2053002CF9C8 /* InfoCell.swift */,
+				FBEDD20C1ECEF8DB002CF9C8 /* RouteMapViewController.swift */,
+				FBDC73D21ECE8CEA005865DB /* LocationInfoViewController.swift */,
+				FBBAA44A1ECE6B5F0063303D /* LocationCell.swift */,
+				FBBAA43F1ECE4B600063303D /* Assets.xcassets */,
+				FBBAA4411ECE4B600063303D /* LaunchScreen.storyboard */,
+				FBBAA4441ECE4B600063303D /* Info.plist */,
+				FBBAA43C1ECE4B600063303D /* RoadTripPlanner.xcdatamodeld */,
+				FBEDD2141ECF00E9002CF9C8 /* LocationPoint.swift */,
+				5FFC67441EE0DF1F00F49930 /* DetailViewController.swift */,
+			);
+			path = RoadTripPlanner;
+			sourceTree = "<group>";
+		};
+		FBBAA44E1ECE7F850063303D /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				FBEDD20A1ECED972002CF9C8 /* LocationInfoViewControllerDelegate.swift */,
+			);
+			name = Delegates;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FBBAA4311ECE4B600063303D /* RoadTripPlanner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBBAA4471ECE4B600063303D /* Build configuration list for PBXNativeTarget "RoadTripPlanner" */;
+			buildPhases = (
+				48EBC2F99254AEE10CEF4715 /* [CP] Check Pods Manifest.lock */,
+				FBBAA42E1ECE4B600063303D /* Sources */,
+				FBBAA42F1ECE4B600063303D /* Frameworks */,
+				FBBAA4301ECE4B600063303D /* Resources */,
+				164252315FF277738872C99F /* [CP] Embed Pods Frameworks */,
+				41053644689E0D3A79C779D1 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RoadTripPlanner;
+			productName = RoadTripPlanner;
+			productReference = FBBAA4321ECE4B600063303D /* RoadTripPlanner.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FBBAA42A1ECE4B600063303D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Allen Fang";
+				TargetAttributes = {
+					FBBAA4311ECE4B600063303D = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = TXBFE4Y6BC;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = FBBAA42D1ECE4B600063303D /* Build configuration list for PBXProject "RoadTripPlanner" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FBBAA4291ECE4B600063303D;
+			productRefGroup = FBBAA4331ECE4B600063303D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FBBAA4311ECE4B600063303D /* RoadTripPlanner */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FBBAA4301ECE4B600063303D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FD88E621EE1DB2400AA32D7 /* travelbuddyimage.jpg in Resources */,
+				FBBAA4431ECE4B600063303D /* LaunchScreen.storyboard in Resources */,
+				FBBAA4401ECE4B600063303D /* Assets.xcassets in Resources */,
+				FBBAA43B1ECE4B600063303D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		164252315FF277738872C99F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RoadTripPlanner/Pods-RoadTripPlanner-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		41053644689E0D3A79C779D1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RoadTripPlanner/Pods-RoadTripPlanner-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		48EBC2F99254AEE10CEF4715 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FBBAA42E1ECE4B600063303D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FFC67451EE0DF1F00F49930 /* DetailViewController.swift in Sources */,
+				FBEDD20B1ECED972002CF9C8 /* LocationInfoViewControllerDelegate.swift in Sources */,
+				FBEDD2151ECF00E9002CF9C8 /* LocationPoint.swift in Sources */,
+				FBBAA4381ECE4B600063303D /* TripOverviewViewController.swift in Sources */,
+				FBEDD2091ECEBC15002CF9C8 /* RoadTripPlanner.xcdatamodeld in Sources */,
+				FBBAA4361ECE4B600063303D /* AppDelegate.swift in Sources */,
+				FBEDD21B1ECF8B73002CF9C8 /* ShowMapViewControlller.swift in Sources */,
+				FBEDD2191ECF2053002CF9C8 /* InfoCell.swift in Sources */,
+				FBEDD20D1ECEF8DB002CF9C8 /* RouteMapViewController.swift in Sources */,
+				FBDC73D31ECE8CEA005865DB /* LocationInfoViewController.swift in Sources */,
+				FBBAA44B1ECE6B5F0063303D /* LocationCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FBBAA4391ECE4B600063303D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FBBAA43A1ECE4B600063303D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FBBAA4411ECE4B600063303D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FBBAA4421ECE4B600063303D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FBBAA4451ECE4B600063303D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FBBAA4461ECE4B600063303D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FBBAA4481ECE4B600063303D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 57F03C2E086AA3B68C091688 /* Pods-RoadTripPlanner.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = TXBFE4Y6BC;
+				INFOPLIST_FILE = RoadTripPlanner/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.alanle.RoadTripPlanner;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		FBBAA4491ECE4B600063303D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26402702A0C8113773E8C4E5 /* Pods-RoadTripPlanner.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = TXBFE4Y6BC;
+				INFOPLIST_FILE = RoadTripPlanner/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.alanle.RoadTripPlanner;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FBBAA42D1ECE4B600063303D /* Build configuration list for PBXProject "RoadTripPlanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBBAA4451ECE4B600063303D /* Debug */,
+				FBBAA4461ECE4B600063303D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBBAA4471ECE4B600063303D /* Build configuration list for PBXNativeTarget "RoadTripPlanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBBAA4481ECE4B600063303D /* Debug */,
+				FBBAA4491ECE4B600063303D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FBBAA43C1ECE4B600063303D /* RoadTripPlanner.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FBBAA43D1ECE4B600063303D /* RoadTripPlanner.xcdatamodel */,
+			);
+			currentVersion = FBBAA43D1ECE4B600063303D /* RoadTripPlanner.xcdatamodel */;
+			path = RoadTripPlanner.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FBBAA42A1ECE4B600063303D /* Project object */;
+}

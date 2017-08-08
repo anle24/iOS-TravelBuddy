@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="Alignment constraints to the first baseline" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
+                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="travelbuddyimage.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="bDs-D4-48x">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Travel" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pkt-k5-PAU">
+                                <rect key="frame" x="0.0" y="79" width="191" height="121"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="191" id="BQZ-Ii-9vT"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="35"/>
+                                <color key="textColor" red="0.51988985854539616" green="0.69904351760787686" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Buddy" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Ey-Fp-Wus">
+                                <rect key="frame" x="187" y="79" width="188" height="121"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="188" id="bRx-yV-URI"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="35"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="bDs-D4-48x" secondAttribute="trailing" id="1o8-kr-Q95"/>
+                            <constraint firstItem="Pkt-k5-PAU" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="A0j-lY-OMT"/>
+                            <constraint firstItem="bDs-D4-48x" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="Aja-lS-Muq"/>
+                            <constraint firstItem="bDs-D4-48x" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="Bgm-gU-IX9"/>
+                            <constraint firstItem="Pkt-k5-PAU" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="59" id="CXP-Kv-g1p"/>
+                            <constraint firstItem="bDs-D4-48x" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="Vm6-lO-VZp"/>
+                            <constraint firstItem="bDs-D4-48x" firstAttribute="bottom" secondItem="xb3-aO-Qok" secondAttribute="top" id="YCX-MM-Pp9"/>
+                            <constraint firstItem="Pkt-k5-PAU" firstAttribute="firstBaseline" secondItem="1Ey-Fp-Wus" secondAttribute="firstBaseline" id="Zci-29-GiR"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="Pkt-k5-PAU" secondAttribute="bottom" constant="467" id="fqc-tW-BLW"/>
+                            <constraint firstAttribute="trailing" secondItem="1Ey-Fp-Wus" secondAttribute="trailing" id="pe2-UX-RyS"/>
+                            <constraint firstItem="Pkt-k5-PAU" firstAttribute="baseline" secondItem="1Ey-Fp-Wus" secondAttribute="baseline" id="q19-Q2-Aqy"/>
+                            <constraint firstItem="Pkt-k5-PAU" firstAttribute="leading" secondItem="bDs-D4-48x" secondAttribute="leading" id="rs2-D2-dqE"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="bDs-D4-48x" secondAttribute="bottom" id="ueA-j7-tFz"/>
+                            <constraint firstItem="1Ey-Fp-Wus" firstAttribute="trailing" secondItem="bDs-D4-48x" secondAttribute="trailing" id="xPT-wh-dsZ"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52" y="374.66266866566718"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="travelbuddyimage.jpg" width="640" height="1136"/>
+    </resources>
+</document>
